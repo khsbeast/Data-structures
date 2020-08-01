@@ -50,7 +50,7 @@ void Delete(int n){
     temp->next = temp2->next;
     delete(temp2);
 }
-void Reverse(){
+/*void Reverse(){
     Node* prev,next,current;
     current=head;
     prev = NULL;
@@ -61,7 +61,7 @@ void Reverse(){
         prev=current;
         current=next;
     }
-}
+}*/
 int main(){
     Insert(5,1);
     Insert(6,2);
